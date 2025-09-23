@@ -14,7 +14,7 @@
     width: 90%;
     height: auto;
     background-color: black;
-    color: rgb(204, 159, 13);;
+    color: rgb(204, 159, 13);
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -24,7 +24,20 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(204, 159, 13);
+    animation-name: Logo;
+    animation-duration: 6S;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
+ @keyframes Logo  {
+         from{
+               color: transparent;
+         } 
+         to{
+            color:rgb(204, 159, 13);
+         }    
+        }   
 p{
     font-size: larger;
     font-style: oblique;
@@ -56,7 +69,7 @@ p{
      margin-bottom: 3px; 
      box-shadow: 2px 2px 8px goldenrod;
   }
-  .HOME-img{
+  img{
     width: 70%;
     height: 40%;
     display: flex;
